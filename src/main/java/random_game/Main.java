@@ -22,7 +22,7 @@ public class Main {
 
             } else if (guess == finalLuckNum) {
                 System.out.println("You guessed: " + guess + "\n" + "This is correct lucky number which is " + finalLuckNum);
-                System.out.println("number of chances: " + i);
+                System.out.println("number of chances: " + (i - 1));
                 break;
             } else {
                 System.out.println("You guessed: " + guess + "\n" + "too big");
